@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top">
+
+    <!-- Input Type Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Type"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Input Type Spinner -->
+    <Spinner
+        android:id="@+id/spInputType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/input_types" />
+
+    <!-- Activity Type Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Type"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Activity Type Spinner -->
+    <Spinner
+        android:id="@+id/spActivityType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:entries="@array/activity_types" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="?android:attr/colorButtonNormal"
+        android:textAllCaps="true" />
+
+</LinearLayout>

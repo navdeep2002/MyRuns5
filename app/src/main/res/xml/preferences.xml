@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Account -->
+    <PreferenceCategory android:title="Account Preferences">
+        <!-- Launch the profile screen -->
+        <Preference
+            android:key="pref_user_profile"
+            android:title="Name, Email, Class, etc"
+            android:summary="User Profile" />
+    </PreferenceCategory>
+
+    <!-- Privacy -->
+    <PreferenceCategory android:title="Privacy">
+        <CheckBoxPreference
+            android:key="pref_privacy"
+            android:title="Privacy setting"
+            android:summary="Posting your records anonymously"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!-- Additional settings -->
+    <PreferenceCategory android:title="Additional settings">
+        <!-- Miles / Kilometers (saves automatically) -->
+        <ListPreference
+            android:key="pref_units"
+            android:title="Unit Preference"
+            android:summary="Select the units in which you would like to see distance values"
+            android:entries="@array/pref_units_entries"
+            android:entryValues="@array/pref_units_values"
+            android:defaultValue="mi" />
+        <!-- Free-form comment (saves automatically) -->
+        <EditTextPreference
+            android:key="pref_comment"
+            android:title="Comment"
+            android:summary="Please enter your comments"
+            android:dialogTitle="Comment" />
+    </PreferenceCategory>
+
+    <!-- Misc -->
+    <PreferenceCategory android:title="Misc.">
+        <!-- Example external link; you can change the URL/behavior in code -->
+        <Preference
+            android:key="pref_homepage"
+            android:title="Class homepage"
+            android:summary="https://www.sfu.ca/computing.html" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

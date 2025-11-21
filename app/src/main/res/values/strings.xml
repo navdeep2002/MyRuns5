@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Navdeep_Bilin_MyRuns5</string>
+
+    <string name="label_profile_photo">Profile Photo:</string>
+    <string name="cd_profile_photo">Current profile photo</string>
+    <string name="btn_change">CHANGE</string>
+    <string name="settings_name">Navdeep_Bilin_MyRuns5</string>
+    <string name="menu_label">Menu</string>
+    <string name="menu_button">⋮</string>
+
+
+    <string name="label_name">Name</string>
+    <string name="hint_name">Your Name</string>
+
+    <string name="label_email">Email</string>
+    <string name="hint_email">Your Email</string>
+
+    <string name="label_phone">Phone</string>
+    <string name="hint_phone">Your Phone Number</string>
+
+    <string name="label_gender">Gender</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_male">Male</string>
+
+    <string name="label_class">Class</string>
+    <string name="hint_class">eg. 2012</string>
+
+    <string name="label_major">Major</string>
+    <string name="hint_major">Your Major</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="google_maps_key"></string>
+
+
+    <string-array name="input_types">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="activity_types">
+        <item>Running</item><item>Walking</item><item>Standing</item>
+        <item>Cycling</item><item>Hiking</item><item>Downhill Skiing</item>
+        <item>Cross Country Skiing</item><item>Snowboarding</item><item>Skating</item>
+        <item>Swimming</item><item>Mountain Biking</item><item>Wheelchair</item>
+        <item>Elliptical</item><item>Other</item>
+    </string-array>
+
+    <string-array name="unit_options">
+        <item>Metric (km, kg)</item>
+        <item>Imperial (miles, lbs)</item>
+    </string-array>
+
+    <string-array name="unit_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="pref_units_entries">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+    <string-array name="pref_units_values">
+        <item>mi</item>
+        <item>km</item>
+    </string-array>
+
+
+
+</resources>

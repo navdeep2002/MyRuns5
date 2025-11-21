@@ -1,0 +1,42 @@
+# === ANDROID PROJECT .gitignore (SAFE FOR MYRUNS2 & MYRUNS3) === got from gpt
+
+# Gradle
+.gradle/
+**/build/
+!gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.log
+
+# Android Studio
+.idea/
+*.iml
+.cache/
+.cxx/
+captures/
+externalNativeBuild/
+
+# IntelliJ
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+generated/
+bin/
+gen/
+
+# APK / AAB outputs
+*.apk
+*.ap_
+*.aab
+
+# Signing files
+*.jks
+*.keystore
+
+# Kotlin/Java annotation processors
+kapt/
